@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #5c9eb6;
+    --secondary-color: #3c5f70;
+    --text-color: #333;
+    --button-background: var(--primary-color);
+    --button-hover-background: var(--secondary-color);
+
+  }
+  
+  body {
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: #f5f9d6;
+    padding: 35px;
+    border-radius: 30px;
+    text-align: center;
+    width: 400px;
+  }
+  
+  
+ 
+  
+  .language-text {
+    font-size: 18px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+  }
+  
+  .language-text span {
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  .toggle-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: var(--button-color);
+    background-color: var(--button-background);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: var(--button-hover-background);
+  }
+  
