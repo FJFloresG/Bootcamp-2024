@@ -1,7 +1,5 @@
 function findLeastFrequent(array) {
     let frequencyMap = new Map();
-
-    // Populate the frequency map
     for (let item of array) {
         if (frequencyMap.has(item)) {
             frequencyMap.set(item, frequencyMap.get(item) + 1);
